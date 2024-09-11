@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+  }
+  
+  .promation_section {
+    padding: 2rem;
+  }
+  
+  .promation_section_letters_page {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .promation_section_head p {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .promation_section_head hr {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin: 0.5rem 0;
+  }
+  
+  .peomation_section_dowload {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .peomation_section_dowload .arrow_down {
+    font-size: 3rem;
+  }
+  
+  .peomation_section_dowload h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  
+  .peomation_section_dowload .promation_section_img img {
+    width: 50px;
+  }
+  
+  .peomation_section_dowload a {
+    font-size: 1.2rem;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .peomation_section_dowload a:hover {
+    text-decoration: underline;
+  }
+  
+  .h_p_typographs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .heading_cont h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .paragraph p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .two_label_cont {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .first_label_cont {
+    flex: 1;
+  }
+  
+  .first_label_cont .grey_lebel_p {
+    color: gray;
+    font-size: 1.1rem;
+  }
+  
+  .first_label_cont .simple_lebel_p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .paragraph_down_p p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .color_cont {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .color_cont_color {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .color_cont_color_1 {
+    background-color: #ff0000;
+  }
+  
+  .color_cont_color_2 {
+    background-color: #00ff00;
+  }
+  
+  .color_cont_color_3 {
+    background-color: #0000ff;
+  }
+  
+  .color_cont_color_4 {
+    background-color: #ffff00;
+  }
+  
+  .color_cont_color_5 {
+    background-color: #ff00ff;
+  }
+  
+  .color_cont_color_6 {
+    background-color: #00ffff;
+  }
+  
+  .color_cont_color_7 {
+    background-color: #000000;
+  }
+  
+  .button_cont .button_cont_first_p {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .four_buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .four_buttons div {
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .four_buttons div:hover {
+    background-color: #555;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .promation_section_letters_page {
+      padding: 1rem;
+    }
+  
+    .promation_section_head p {
+      font-size: 1.5rem;
+    }
+  
+    .peomation_section_dowload {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .peomation_section_dowload .arrow_down {
+      font-size: 2rem;
+    }
+  
+    .peomation_section_dowload h1 {
+      font-size: 2rem;
+    }
+  
+    .peomation_section_dowload .promation_section_img img {
+      width: 40px;
+    }
+  
+    .peomation_section_dowload a {
+      font-size: 1rem;
+    }
+  
+    .h_p_typographs {
+      flex-direction: column;
+    }
+  
+    .heading_cont h1 {
+      font-size: 2rem;
+    }
+  
+    .paragraph p {
+      font-size: 1rem;
+    }
+  
+    .color_cont {
+      flex-wrap: wrap;
+    }
+  
+    .color_cont_color {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .four_buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .four_buttons div {
+      width: 100%;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .promation_section_letters_page {
+      padding: 0.5rem;
+    }
+  
+    .promation_section_head p {
+      font-size: 1.2rem;
+    }
+  
+    .peomation_section_dowload .arrow_down {
+      font-size: 1.5rem;
+    }
+  
+    .peomation_section_dowload h1 {
+      font-size: 1.5rem;
+    }
+  
+    .peomation_section_dowload .promation_section_img img {
+      width: 30px;
+    }
+  
+    .peomation_section_dowload a {
+      font-size: 0.9rem;
+    }
+  
+    .heading_cont h1 {
+      font-size: 1.5rem;
+    }
+  
+    .paragraph p {
+      font-size: 0.9rem;
+    }
+  
+    .color_cont_color {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .button_cont .button_cont_first_p {
+      font-size: 1.2rem;
+    }
+  
+    .four_buttons div {
+      padding: 0.5rem 1rem;
+    }
+  }
+  
